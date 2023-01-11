@@ -103,7 +103,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         : Icons.play_circle_outline_rounded),
                   ),
 
-                  // 상황에 따라 안보이도록!
+                  // 상황에 따라 안보이도록! -------challenge-------
                   Visibility(
                     visible: (totalSeconds != twentyFiveMinutes),
                     child: IconButton(
